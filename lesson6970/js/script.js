@@ -43,11 +43,21 @@ window.addEventListener("DOMContentLoaded", () => {
     const deadLine = '2022-05-20';
 
     function getTimeRemaining(endtime) {
-        const t = Date.parse(endtime) - Date.parse(new Date()),// получим числовую дату в миллисекундах и находим разницу(врем до дедлайна)
+        let days, hours, minutes, seconds;
+        const t = Date.parse(endtime) - Date.parse(new Date());// получим числовую дату в миллисекундах и находим разницу(врем до дедлайна)
+//Добавляем условие если в t придет отрицательное значение, чтоб в таймере не было отрицательных чисел
+        if(t <= 0) {
+            days = 0;
+            hours = 0;
+            minutes = 0;
+            seconds = 0;
+        } else {
             days = Math.floor(t / (1000 * 60 * 60 * 24)),
             hours = Math.floor(t / (1000 * 60 * 60) % 24),
             minutes = Math.floor((t / 1000 / 60) % 60),
             seconds = Math.floor((t / 1000) % 60);
+        }
+            
 
             return {
                 'total' : t,
