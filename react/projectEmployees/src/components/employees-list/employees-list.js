@@ -7,10 +7,10 @@ const EmployeesList = ({data, onDelete, onToggleProp}) => {
         const {id, ...itemProps} = item;
         return (            
             <EmployeesListItem 
-            key={id} 
-            {...itemProps}
-            onDelete={()=> onDelete(id)}
-            onToggleProp={(e) => onToggleProp(id, e.currentTarget.getAttribute('data-toggle'))}
+                key={id} 
+                {...itemProps}
+                onDelete={()=> onDelete(id)}
+                onToggleProp={(e) => onToggleProp(id, e.currentTarget.getAttribute('data-toggle'))}
             />   
         )
     })
