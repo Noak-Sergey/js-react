@@ -1,0 +1,61 @@
+{
+  "heroes": [
+    {
+      "id": 3,
+      "name": "Морской герой",
+      "description": "Как аквамен, но не из DC",
+      "element": "water"
+    },
+    {
+      "id": "fc2687ca-62d6-492b-b847-6573c9811679",
+      "name": "Goshan",
+      "description": "Кукарекает",
+      "element": "wind"
+    },
+    {
+      "id": "c3dfba34-6903-4b25-bc8e-5785d46e2444",
+      "name": "Grogu",
+      "description": "Телекинез",
+      "element": "earth"
+    },
+    {
+      "id": "785269a1-6069-423b-8fde-7d21565149fa",
+      "name": "Kola",
+      "description": "Pekar",
+      "element": "fire"
+    },
+    {
+      "id": "d95a3484-8fb2-445c-b032-ec48aef6350b",
+      "name": "Persick",
+      "description": "asdf",
+      "element": "water"
+    }
+  ],
+  "filters": [
+    {
+      "name": "all",
+      "label": "Все",
+      "className": "btn-outline-dark"
+    },
+    {
+      "name": "fire",
+      "label": "Огонь",
+      "className": "btn-danger"
+    },
+    {
+      "name": "water",
+      "label": "Вода",
+      "className": "btn-primary"
+    },
+    {
+      "name": "wind",
+      "label": "Ветер",
+      "className": "btn-success"
+    },
+    {
+      "name": "earth",
+      "label": "Земля",
+      "className": "btn-secondary"
+    }
+  ]
+}

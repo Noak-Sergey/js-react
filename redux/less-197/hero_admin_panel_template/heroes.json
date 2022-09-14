@@ -1,0 +1,61 @@
+{
+  "heroes": [
+    {
+      "id": 3,
+      "name": "Морской герой",
+      "description": "Как аквамен, но не из DC",
+      "element": "water"
+    },
+    {
+      "id": "df2fb228-9000-479c-8efe-561edf058c54",
+      "name": "Leo",
+      "description": "Sleep",
+      "element": "fire"
+    },
+    {
+      "id": "31f59940-4212-41e3-b1dd-a1f10847abc6",
+      "name": "Arrow",
+      "description": "fly",
+      "element": "wind"
+    },
+    {
+      "id": "0cf32c10-716e-4b78-a97a-27f63bed9f05",
+      "name": "Goblin",
+      "description": "Eat",
+      "element": "earth"
+    },
+    {
+      "id": "7bd3452e-6f6f-4363-b9ff-814e2deb2305",
+      "name": "Tolik",
+      "description": "Чахлый",
+      "element": "earth"
+    }
+  ],
+  "filters": [
+    {
+      "name": "all",
+      "label": "Все",
+      "className": "btn-outline-dark"
+    },
+    {
+      "name": "fire",
+      "label": "Огонь",
+      "className": "btn-danger"
+    },
+    {
+      "name": "water",
+      "label": "Вода",
+      "className": "btn-primary"
+    },
+    {
+      "name": "wind",
+      "label": "Ветер",
+      "className": "btn-success"
+    },
+    {
+      "name": "earth",
+      "label": "Земля",
+      "className": "btn-secondary"
+    }
+  ]
+}
